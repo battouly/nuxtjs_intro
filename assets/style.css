@@ -1,0 +1,59 @@
+:root {
+  --blue: #030303;
+  --teal: #068587;
+  --teal-light: #4fb99f;
+  --yellow: #f2b134;
+  --main-bg-color: coral;
+}
+
+body {
+  padding: 1rem;
+  background: var(--blue);
+  color: white;
+}
+
+a {
+  color: var(--teal-light);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--teal);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.text-xs {
+  font-size: 1.2rem;
+}
+
+.text-sm {
+  font-size: 1.4rem;
+}
+
+.text-base {
+  font-size: 1.6rem;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+}
+
+.text-xl {
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--yellow);
+}
+
+p {
+  text-align: justify;
+}
